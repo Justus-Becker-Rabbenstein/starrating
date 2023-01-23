@@ -19,6 +19,10 @@ const dinersArray = [
     shop: "Justus Juute Jägerschnitzel",
     rating: 1,
   },
+  {
+    shop: "Timo's Thunfischbrötchen",
+    rating: 2.5,
+  },
 ]
 
 // <Icon icon="material-symbols:star" color="gold" />
@@ -34,6 +38,7 @@ function handleStars(numRating) {
       displayArray.push(<Icon icon="material-symbols:star" color="gold" />) 
     } else if (numRating % 1) {
       displayArray.push(<Icon icon="material-symbols:star-half" color="gold" />)
+      numRating = numRating + 0.5;
     } else if (index => numRating) {
       displayArray.push(<Icon icon="material-symbols:star-outline" color="gold" />)
     }
