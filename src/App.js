@@ -33,7 +33,6 @@ function handleStars(numRating) {
   let displayArray = []
 
   for (let index = 0; index < totalAmountOfStars; index++) {
-    console.log(index)
     if (index < Math.trunc(numRating)) {
       displayArray.push(<Icon icon="material-symbols:star" color="gold" />) 
     } else if (numRating % 1) {
