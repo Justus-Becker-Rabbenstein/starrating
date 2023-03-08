@@ -1,3 +1,6 @@
+# Tech Stack
+React (HTML, styled-components, JavaScript)
+
 # Star Rating
 Provides a star rating with Iconify stars 
 
